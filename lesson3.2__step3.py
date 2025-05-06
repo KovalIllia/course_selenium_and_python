@@ -40,7 +40,7 @@ class UnitestTest(unittest.TestCase):
             # закрываем браузер после всех манипуляций
             browser.quit()
 
-    def test_registration1(self):
+    def test_registration2(self):
         try:
             link = "http://suninjuly.github.io/registration2.html"
             browser = webdriver.Chrome()
